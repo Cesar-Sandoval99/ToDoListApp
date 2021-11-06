@@ -1,0 +1,54 @@
+.todoCard {
+    width: 23%;
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 150px;
+    border-radius: 15px;
+    background-color: transparent;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    box-shadow: 9px 10px 48px -2px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 9px 10px 48px -2px rgba(0,0,0,0.61);
+    -moz-box-shadow: 9px 10px 48px -2px rgba(0,0,0,0.61);
+
+}
+.todoCard:hover {
+    transform: translateY(-10px);
+
+}
+.todoActions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-image: url(https://www.wallpapertip.com/wmimgs/245-2452987_rain-gif-wallpaper.jpg);
+    background-repeat: no-repeat;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+.todoActions .complete{
+    background-color: #49FF00;
+    border: 2px solid outset;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;}
+.todoActions .reset{
+    background-color: #FF0000;
+    border: 2px solid outset;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: .7rem;
+    cursor: pointer;
+}
+h4{
+    font-family: 'Press Start 2P', cursive;
+    font-size: .7rem;
+}

@@ -1,0 +1,20 @@
+.todoContainer{
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  display: none;
+}
+.todoContainer1 {
+  width: 65%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  display: flex;
+}
+

@@ -1,0 +1,8 @@
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem
+};

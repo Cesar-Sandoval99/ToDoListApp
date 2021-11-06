@@ -1,0 +1,51 @@
+header {
+    padding: 5px 4rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Ewert', cursive;
+    flex-direction: column;
+}
+.complete{
+    background-color: #49FF00;
+    border: 2px solid outset;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    margin: 0 150px;
+}
+.reset{
+    background-color: #FF0000;
+    border: 2px solid outset;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: .7rem;
+    cursor: pointer;
+}
+.all{
+    background-color: #0F00FF;
+    border: 2px solid outset;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: .7rem;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.none{
+    display: none;
+}
