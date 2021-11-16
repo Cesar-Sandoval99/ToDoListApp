@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
-/* 
-importaciones react
-import {BrowserRouter, Switch, Route} from "react-router-dom"
-*/
+
 // Components
 import Header from "./components/Header";
 import LoaderStyle from "./components/LoaderStyle";
